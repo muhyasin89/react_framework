@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+.sideBar{
+    width: 20%;
+    float: left;
+}
+
+.leftContent{
+  width: 40%;
+  float: left;
+}
+
+.rightContent{
+  width: 40%;
+  float: right;
+}

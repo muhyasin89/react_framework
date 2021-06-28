@@ -1,10 +1,15 @@
 import React from 'react';
+import { ListGroup } from 'react-bootstrap';
 
 function LeftSlider(){
     return (
-        <footer>
-           <h1>This is LeftSlider</h1>
-        </footer>
+        <ListGroup>
+            <ListGroup.Item>Home</ListGroup.Item>
+            <ListGroup.Item>About</ListGroup.Item>
+            <ListGroup.Item>Reserve 1</ListGroup.Item>
+            <ListGroup.Item>Reserve 2</ListGroup.Item>
+            <ListGroup.Item>Reserve 3</ListGroup.Item>
+        </ListGroup>
     )
 }
 
